@@ -1,5 +1,8 @@
 # Kibana Dashboard Demo
-This repository contains some sample dashboards created for Apache Web Logs collected from [secrepo.com](https://secrepo.com)
+This repository contains some sample dashboards created for Apache Web Logs collected from [secrepo.com](https://www.secrepo.com/self.logs/)
+
+And the wonderful analytics that comes along with just plain web access logs as follows:
+![Web Logs](https://github.com/nich07as/kibana_dashboard_demo/blob/master/kibana_dashboard_sample.png)
 
 To use these dashboards, you will need to do the following:
 
@@ -104,6 +107,6 @@ output {
 }
 ```
 3. Once ingested, create your kibana index pattern [more information here](https://www.elastic.co/guide/en/kibana/current/index-patterns.html#:~:text=An%20index%20pattern%20tells%20Kibana,clouds%2C%20and%20more%20in%20Visualize.)
-4. Import the Kibana objects to your Kibana Instance
+4. Import the [Kibana objects](https://github.com/nich07as/kibana_dashboard_demo/blob/master/kibana_access_log_demo.ndjson) to your Kibana Instance via the steps [here](https://www.elastic.co/guide/en/kibana/current/managing-saved-objects.html#managing-saved-objects-export-objects)
 
 Please let me know if you have any questions through issues in this repo. Thanks!
